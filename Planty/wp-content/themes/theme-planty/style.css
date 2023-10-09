@@ -157,11 +157,11 @@ hr{
    }
    
    input[value="Ok"] {
-    max-width:64px;
+    max-width:90%;
     }
 
     hr{
-        height: 70vh;
+        height: 51vh;
     }
 
 }
@@ -186,6 +186,7 @@ hr{
     .elementor-container .elementor-column-gap-no{
         padding-left: 20px;
     }
+    
     input{
         width: 90vw;
         height: 71px;
