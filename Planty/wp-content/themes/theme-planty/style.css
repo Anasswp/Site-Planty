@@ -1,0 +1,198 @@
+/*
+Theme Name: Theme enfant Planty
+Template: hello-elementor
+Author: Anass
+Description: Le thème du projet Planty
+Tags: accessibility-ready,flexible-header,custom-colors,custom-menu,custom-logo,featured-images,rtl-language-support,threaded-comments,translation-ready
+Version: 2.8.1.1693994152
+Updated: 2023-09-06 11:55:52
+
+*/
+
+input[value="0"] {
+    width: 82px;
+    height: 56px;
+    padding-right: 47px;
+    border: none;
+    border-radius:5px;
+    color:black;
+    background-color: #FFFFFF;
+  }
+  
+  input[value="0"]:hover{
+      background-color: white;
+      color: black;
+  }
+  
+  input[value="+"]:hover{
+    background-color: #DC9F96;
+  }
+  
+  input[value="-"]:hover{
+    background-color: #DC9F96;
+  }
+  
+  input[value="+"] {
+    width: 32px;
+    height: 27px;
+    color: white;
+    position: absolute; 
+    bottom:147px; 
+    left:50px; 
+    top: 0px;
+    background: #DC9F96;
+    padding: 2px 5px 26px 7px;
+    border: none;
+    border-radius: 0 5px 0 0;
+  }
+  
+  input[value="-"] {
+    width: 32px;
+    height: 27px;
+    color: white;
+    position: absolute; bottom: 118px; left: 50px; top: 29px;
+    padding: 2px 5px 25px 7px;
+    background: #DC9F96;
+    border: none;
+    border-radius:0 0 5px 0;
+  }
+  
+  input[value="Ok"] {
+    width: 109px;
+    height: 56px;
+    background: #E0B9B4;
+    position: absolute;
+    top:0px;
+    color: white;
+    border:none;
+    border-radius:5px;
+    margin-left: 98px;
+}
+
+.container-form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: syne;
+    color: white;
+    }
+
+input{
+    width: 383px;
+    height: 71px;
+    border-radius: 7px;
+    border-color: white;
+}
+
+h3{
+    font-family: Syne;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+h4{
+    font-family: Syne;
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 20px;
+}
+
+.submit-button-form{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.submit-button{
+    width: 198px;
+    height: 55px;
+    color: white;
+    background-color: #E0B9B4;
+    border-style: none;
+}
+
+.submit-button:hover{
+    border-style: none;
+}
+
+hr{ 
+    color: white;
+    border-left: 1px solid hsla(200, 10%, 50%,100);
+    height:51vh;
+}
+
+#menu-item-726:hover{
+    background-color:#C02E44;
+}
+
+#menu-item-726 a{
+    background-color:#DC9F96;
+    color: white;
+}
+
+.attachment-large.size-large.wp-image-40{
+    margin-left: 20px;
+}
+
+ #contact-us-button {
+    margin-left: 80px;
+    margin-right: 80px;
+    border-radius: 5px;
+ }
+
+
+
+
+ @media (max-width:1440px) {
+    .attachment-full.size-full.wp-image-25{
+        display: none;
+    }
+
+    .attachment-medium.size-medium.wp-image-35{
+        display: none;
+    }
+    
+   input{
+       max-width:100%;
+   }
+   
+   input[value="Ok"] {
+    max-width:64px;
+    }
+
+    hr{
+        height: 70vh;
+    }
+
+}
+
+@media (max-width:768px) {
+    .drink-image {
+        width:70%;
+    }
+
+    .container-form{
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+    }
+
+    hr{
+        display: none;
+    }
+ }
+
+ @media (max-width:650px) {
+    .elementor-container .elementor-column-gap-no{
+        padding-left: 20px;
+    }
+    input{
+        width: 90vw;
+        height: 71px;
+        border-radius: 7px;
+        border-color: white;
+    }
+    hr{
+        display: none;
+    }
+}
